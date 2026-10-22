@@ -9,7 +9,7 @@ timeout-minutes: 10080
 env:
 PROCESSOR_COUNT: 8
 OPENGL: "1"
-GITHUB_PRESERVE_WORKFLOW: true
+GITHUB_PRESERVE_WORKFLOW:true
 MEMORY_GB: 16
 steps:
 - name: Baixar e Instalar Essenciais
