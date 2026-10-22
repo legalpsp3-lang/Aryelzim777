@@ -14,7 +14,7 @@ MEMORY_GB: 16
 steps:
 - name: Baixar e Instalar Essenciais
 run: |
-Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/7eiczvgil84czu55dxep3/Downloads.bat?rlkey=wzdc1wxjsph2b7r0atplmdz3p&dl=1" -OutFile "Downloads.bat" -UseBasicParsing
+Invoke-WebRequest-Uri"https://www.dropbox.com/scl/fi/7eiczvgil84czu55dxep3/Downloads.bat?rlkey=wzdc1wxjsph2b7r0atplmdz3p&dl=1"-OutFile"Downloads.bat"-UseBasicParsing
 cmd /c Downloads.bat
 - name: Iniciar AnyDesk
 run: |
